@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(245, 164, 107);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    height: 45px;
+    background-color: rgba(80, 80, 80,.2);
+    
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+nav a{
+    color: white;
+}
+nav a:hover{
+    background-color: rgb(226, 196, 191);
+}
+button{
+    background-color: rgb(6, 248, 38, .6);
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: seagreen;
+}
+div.background{
+    color: rgba(241, 49, 15, 0.979);
+    background-image: url(images/bglaundary.jpg);
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-top: 250px;
+    padding-left: 50px;
+    text-align: center;
+}
+div.background button{
+    border-radius: 10px;
+    background-color: rgb(66, 66, 248);
+
+}
+div.background button:hover{
+    background-color: blue;
+}
+div p{
+     font-size: 18px;
+}
+#bottom{
+    text-align: center;
+    font-family: cursive;
+}
+table{
+    margin: 0px 300px 50px 300px;
+
+}
+table td{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: crimson;
+}
